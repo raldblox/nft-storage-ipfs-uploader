@@ -53,7 +53,7 @@ const IPFSUploader = () => {
         setImageView(imgViewString);
         setMetaDataURl(getIPFSGatewayURL(metaData.url));
         setCid(metaData.data.image.host);
-        setTxStatus("File Uploaded Successfully! Check Status.");
+        setTxStatus("File Uploaded Successfully! Please Check Status.");
         setErrorMessage("");
     }
 
@@ -65,7 +65,7 @@ const IPFSUploader = () => {
 
     const copy = async () => {
         await navigator.clipboard.writeText(cid);
-        alert('Text copied');
+        alert('CID copied to clipboard');
     }
 
     return (
@@ -122,10 +122,8 @@ const IPFSUploader = () => {
                                                         {link && <p><a href={link} >IPFS URL Link</a></p>}
                                                     </div>
                                                     <button onClick={copy} disabled={!cid} className="btn mt-4">COPY CID</button>
-
                                                 </div>
                                             }
-
                                         </div>
                                     </div>
                                 </div>
