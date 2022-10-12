@@ -1,0 +1,34 @@
+.App {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  text-align: center;
+}
+
+.form-container {
+  min-width: 300px;
+  max-width: 400px;
+}
+
+.interface {
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+  border-radius: 2rem;
+}
+
+input {
+  padding: 0.5rem;
+  font-size: 15px;
+  border-radius: 15px;
+}
+
+button {
+  padding: 0.5rem;
+}
+
