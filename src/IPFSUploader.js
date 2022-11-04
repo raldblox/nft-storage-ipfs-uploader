@@ -108,7 +108,7 @@ const IPFSUploader = () => {
                                     </div>
                                     <div className="card-back">
                                         <div className="center-wrap">
-                                            {!metaDataURL ? <><h5>Powered by FRNS <br />Network and <a href='https://filecoin.io/'>Filecoin</a></h5><h6 style={{ color: "#6497b1", letterSpacing: "5px" }}>FOR ZOOCIETY</h6><>Made with ❤️ by PZOOTECH</></> :
+                                            {!metaDataURL ? <><h5>Powered by FRNS <br />Network and <a href='https://filecoin.io/'>Filecoin</a></h5><h6 style={{ color: "#6497b1", letterSpacing: "5px" }}>FOR ZOOCIETY</h6><>Made with ❤️ by raldblox</></> :
                                                 <div className="section text-center">
                                                     <p style={{ color: "red" }}>{errorMessage}</p>
                                                     <h4 className="mb-4 pb-3">UPLOAD RESULTS</h4>
